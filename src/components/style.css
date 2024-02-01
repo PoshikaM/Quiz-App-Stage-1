@@ -1,0 +1,150 @@
+body{
+    background-color: #473a8d;
+    color: white;
+}
+
+.home {
+    display: flex;
+    place-items: center;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+}
+
+.playbtn{
+    background-color: #0ab306;
+    color: white;
+    width: 150px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+
+
+/* Quiz page */
+.quizfull{
+    background-color: hsl(0, 0%, 100%);
+    padding: 50px;
+    padding-left: 90px;
+    padding-right: 90px;
+}
+
+.whole{
+    display: flex;
+    justify-content: center;
+}
+
+.buttons{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 100px;
+    row-gap: 25px;
+    column-gap: 70px;
+}
+
+.btn{
+    padding: 10px;
+    width: 400px;
+    border-radius: 30px;
+    background-color: #1ea1f1;
+    color: white;
+    border: none;
+}
+
+.heading{
+    text-align: center;
+    color: black;
+}
+
+.question{
+    text-align: center;
+    color: black;
+    font-weight: 550;
+    margin-top: 30px;
+}
+
+.questionNum{
+    color: black;
+    margin-top: 30px;
+    font-weight: 550;
+}
+
+.gamebtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 70px;
+}
+
+.prevbtn{
+    background-color: #3e7eaa;
+    color: black;
+    padding: 10px;
+    border: none;
+}
+
+.quitbtn{
+    background-color: red;
+    color: black;
+    padding: 10px;
+    border: none;
+}
+
+.nextbtn{
+    background-color: green;
+    color: black;
+    border: none;
+    padding: 10px;
+}
+
+
+
+/* Result page */
+.reshead{
+    color: green;
+    text-align: center;
+}
+
+.entire{
+    background-color: white;
+    color: black;
+}
+
+h1{
+    text-align: center;
+    color: blue;
+}
+
+h3{
+    text-align: center;
+    padding-top: 50px;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 70px;
+    padding-left: 50px;
+    column-gap: 500px;
+}
+
+.full{
+    display: flex;
+    justify-content: center;
+}
+
+.btns{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.btn1{
+    color: blue;
+}
+
+.btn2{
+    color: green;
+}
